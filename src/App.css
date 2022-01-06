@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.player {
+    flex: 1;
+    justifyContent: 'flex-end';
+    marginBottom: 36;
+  }
+

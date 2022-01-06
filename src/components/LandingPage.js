@@ -1,7 +1,6 @@
 // render two buttons login form(renders loginform on click) and sign up form(renders signup form on click)
 // render two buttons login form(renders loginform on click) and sign up form(renders signup form on click)
 import React from 'react';
-import {NavLink} from 'react-router-dom';
 import {Container} from 'react-bootstrap'
 
 
@@ -12,23 +11,11 @@ function LandingPage() {
 
     return (
         <div>
-
             <Container>
                 <a className='btn btn-success btn-lg' href={AUTH_URL}>
                     Login
                 </a>
             </Container>
-
-
-
-{/* 
-            <NavLink  to='/login' style={{color: "white", textDecoration: 'none', fontSize: '3rem'}}>
-                Log In
-            </NavLink>
-            <br/>
-            <NavLink to='/sign-up' style={{color: "white", textDecoration: 'none', fontSize: '3rem'}} >
-                Sign Up
-            </NavLink> */}
         </div>
     )
 }
