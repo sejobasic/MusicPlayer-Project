@@ -3,19 +3,13 @@ import React from 'react'
 import SearchBar from './SearchBar'
 import NavBar from './NavBar'
 
-function Home() {
 
-    
+function Home() {
     return (
         <div>
             <NavBar  fixed="top"/>
-            
             <SearchBar />
-
-            
         </div>
-            
-        
     )
 }
 
