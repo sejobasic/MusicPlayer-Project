@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import LandingPage from './components/LandingPage'
-import Home from './components/Home'
+
+import '../App.css';
+import LandingPage from './LandingPage'
+import Home from './Home'
 import { Route, Routes} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Search from './components/Search'
+import Search from './Search'
 
 
 //rfce = create starter component
